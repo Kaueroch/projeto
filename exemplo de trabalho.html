@@ -1,0 +1,191 @@
+<style>
+    *{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+    border: none;
+}
+
+body{
+    background-color: #1f1f1f;
+    color: #fff;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.header{
+    position: absolute;
+    top: 0;
+    left: 40%;
+    width: 100%;
+    padding: 20px 10%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    border-radius: 300vh;
+}
+.home-img img{
+    max-width: 450px;
+   
+}
+img{
+    border-radius: 300vh;
+}
+.home{
+    position: relative;
+    width: 100%;
+    top: -110%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 70px 10% 0 ;
+}
+.navbar{
+ left: 30%;
+}
+.navbar a{
+    font-size: 30px;
+    color: #fff;
+    
+    max-width: 200px;
+    margin-left: 35px;
+    text-decoration: none;
+    transition: .3s;
+    
+  
+ 
+}
+.navbar a:hover ,
+.navbar a.active { 
+    color: #fff;
+
+
+}
+.cabeca{
+    position: relative;
+    width: 90%;
+    height: 100vh;
+    left:30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 70px 9% 0 ;
+}
+.home-content{
+    max-width: 600px
+
+
+}
+.home-content h3{
+   font-size: 50px;
+   font-weight: 700;
+}
+.home-content  h3:nth-of-type(2){
+    margin-bottom:30px;
+}
+.home-content  h3 span{
+     color: #8b008b;
+}
+.home-content h1{
+ font-size: 60px;
+ font-weight: 700;
+ margin: -3px 0;
+}
+.home-content p{
+    font-size: 20px;
+}
+.home-img img{
+    max-width: 30em;
+}
+img{
+    border-radius: 20vh;
+    width: 100%;
+    padding: -40px;
+}
+.social-media a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid #0ef;
+    border-radius: 50%;
+    font-size: 2rem;
+    text-decoration: none;
+    color: #0ef;
+    margin: 30px 15px 30px 0;
+    transition: .5s ease;
+}
+.social-media a:hover{
+    background-color: #8b008b;
+    color: #fff;
+    box-shadow: 0 0 20 #8b008b;
+}
+.navbar a:hover{ 
+    background-color: #8b008b;
+}
+.navbar a.active:hover{
+    background-color:#1f242d;
+    border-radius: 40px;
+    color: #fff;
+    border-color: #0ef;
+}
+.navbar .bar1{
+    background-color:#1f242d;
+    border-radius: 40px;
+    font-size: 10px;
+    color: #fff;
+    font-size: 20px;
+    border-color: #0ef;
+}
+
+</style>
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home&reg;</title>
+    <link rel="icon" href="casa.png">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="pg.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <a href="file:///E:/jogo%20expotec/jogo/jogo.html" class="active">Voltar</a>
+            <a href="exemplo de trabalho.html" class="bar1">Home</a>
+            <a href="trabalho.html" class="bar1">Kauê</a>
+            <a href="giovanna.html" class="bar1">Giovanna</a>
+            <a href="davi.html" class="bar1">Davi</a>
+             </nav>
+			 
+    </header>
+    <div class="cabeca">
+        <div class="home-img">
+            <img src="cabeçudosunidos.png" height="600" width="200">
+        </div>
+    </div>
+    
+    
+
+    <section class="home">
+        <div class="home-content">
+            <h3><span>Trabalho de WEB1</span></h3>
+            <h3>Site desenvolvido por Davi,Giovanna e Kauê</h3>
+         <p>
+           <i class='bx bxs-smile'></i>
+         </p>
+        
+        </div>
+    </section>
+
+
+</body>
+</html>                

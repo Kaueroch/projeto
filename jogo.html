@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DengueQuiz&reg;</title>
+</head>
+<style>
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #1f1f1f;
+        overflow: hidden;
+    }
+
+    .field {
+        position: absolute;
+        text-align: center;
+        top: 30%;
+        left: 35%;
+        padding: 3.4rem;
+        box-shadow: 1px 1px 10px #e0f;
+        border: 0.0625rem solid #e0f;
+        height: 37%;
+        width: 20%;
+        border-radius: 1.875rem;
+    }
+
+    #btn1,
+    #btn2,
+    #btn3 {
+        padding: 1rem;
+        width: 100%;
+        opacity: 60%;
+        font-size: 1.25rem;
+        border-radius: 1.30rem;
+        position: relative;
+        top: -3%;
+        margin-top: 1rem;
+    }
+
+    #btn1:hover,
+    #btn2:hover,
+    #btn3:hover {
+        background-color: #8b008b;
+        border: 3px solid #8b008b;
+        box-shadow: 0.125rem 0.125rem 1.25rem #8b008b;
+        transition: 1s;
+        color: #fff;
+    }
+
+    .logotop {
+        color: #fff;
+        animation: piscar 1s infinite;
+        position: relative;
+        top: -12%;
+    }
+
+    @keyframes piscar {
+        0%,
+        50% {
+            opacity: 1;
+        }
+
+        51%,
+        100% {
+            opacity: 0;
+            transition: 1s;
+        }
+    }
+
+    h1 {
+        color: white;
+        position: relative;
+        top: 7%;
+        left: -12;
+    }
+
+    .divquiz {
+        position: absolute;
+        left: 34%;
+        top: 15%;
+        font-size: 1.4rem;
+    }
+
+    img {
+        position: fixed;
+        top: 4%;
+        left: 43%;
+        width: 12%;
+        height: 15%;
+        border-radius: 1rem;
+    }
+</style>
+
+<body>
+    <img src="download.png" alt="">
+    <div class="divquiz">
+        <h1>Quiz sobre a Dengue!</h1>
+    </div>
+    <fieldset class="field">
+        <h1 class="logotop">Clique para começar</h1>
+        <button id="btn1">Jogar</button>
+        <button id="btn2">Instruções</button>
+        <button id="btn3">Blog</button>
+    </fieldset>
+    <script>
+        // JOGAR
+        const botao1 = document.getElementById("btn1");
+        botao1.addEventListener("click", function () {
+            window.location.href = "/jogo expotec/jogocerto/index.html";
+        });
+
+        // INSTRUÇÕES
+        const botao2 = document.getElementById("btn2");
+        botao2.addEventListener("click", function () {
+            window.location.href = "/jogo expotec/instrucoes/instrucoes.html";
+        });
+
+        // BLOG
+        const botao3 = document.getElementById("btn3");
+        botao3.addEventListener("click", function () {
+            window.location.href = "/jogo expotec/blog/blog.html";
+        });
+    </script>
+</body>
+
+</html>

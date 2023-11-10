@@ -1,0 +1,126 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #1f1f1f;
+  overflow-y: hidden;
+}
+/* primeiro quadro*/
+#f1 {
+  position: absolute;
+  top: 20%;
+  left: 20%;
+  height: 17rem;
+  width: 17rem;
+  padding: 3rem;
+  background-color: rgb(214, 100, 223);
+  border-radius: 4rem;
+}
+
+#f1:hover {
+  transform: scale(1.2);
+  font-size: 1rem;
+  transition: 2s;
+  z-index: 1;
+  box-shadow: .25rem .25rem 2.5rem rgb(163, 65, 170);
+}
+
+.p1 {
+  position: absolute;
+  top: -7%;
+  left: 43.4%;
+  font-size: 3rem;
+}
+
+/* segundo quadro*/
+#f2 {
+  position: absolute;
+  top: 20%;
+  left: 54%;
+  height: 17rem;
+  width: 17rem;
+  padding: 3rem;
+  background-color: rgb(214, 100, 223);
+  border-radius: 4rem;
+}
+
+#f2:hover {
+  font-size: 1rem;
+  transition: 1.5s;
+  z-index: 1;
+  transform: scale(1.2);
+  box-shadow: .25rem .25rem 2.5rem rgb(163, 65, 170);
+}
+
+.p2 {
+  position: absolute;
+  top: -7%;
+  left: 43.4%;
+  font-size: 3rem;
+}
+
+/* Botao*/
+#botaoback {
+  position: absolute;
+  top: 78%;
+  left: 41.5%;
+  color: #fff;
+  width: 15rem;
+  cursor: pointer;
+  background-color: #a332a3;
+  border-radius: 1.875rem;
+  padding: 1.5rem
+}
+
+#botaoback:hover {
+  background-color: #8b008b;
+  transition: 1s;
+  box-shadow: .125rem .125rem 1.25rem #610661;
+  transform: scale(1.2, 1.2);
+}
+
+.p4 {
+  font-size: 1.40rem;
+}
+
+h1 {
+  position: absolute;
+  top: 4%;
+  left: 44%;
+}
+
+#bom {
+  position: absolute;
+  top: 6%;
+  left: 43%;
+  font-size: 2rem;
+  color: #fff;
+
+}
+
+.paragrafo {
+  position: absolute;
+  top: -2%;
+  left: 44%;
+  font-size: 2rem;
+  color: #8b008b;
+}
+
+#data {
+  position: absolute;
+  top: 89%;
+  left: 79.6%;
+  font-size: 2.2rem;
+  color: #fff;
+}
+
+#horas {
+  position: absolute;
+  top: 89%;
+  font-size: 2.2rem;
+  color: #fff;
+}
+
+.textoquadro1 {
+  word-wrap: break-word;
+}
